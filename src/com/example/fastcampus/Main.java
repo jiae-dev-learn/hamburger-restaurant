@@ -14,7 +14,7 @@ public class Main {
 		hamburgerOrderMachine1.order(new BulgogiBurger());
 		hamburgerOrderMachine1.order(new CheeseBurger());
 		int totalPrice1 = hamburgerOrderMachine1.completeOrder();
-		System.out.println("첫 번쨰 주문은 " + totalPrice1 + "원 입니다");
+		System.out.println("====== 첫 번쨰 주문은 총 " + totalPrice1 + "원 입니다. ======");
 
 		//과제상세
 		HamburgerOrderMachine hamburgerOrderMachine2 = new HamburgerOrderMachine();
@@ -25,7 +25,7 @@ public class Main {
 		int totalPrice2 = hamburgerOrderMachine2.completeOrder();
 		//총 합계 가격
 		
-		System.out.println("두 번째 주문은" + totalPrice2 + "원 입니다.");
+		System.out.println("====== 두 번째 주문은 총 " + totalPrice2 + "원 입니다. ======");
 		
 		
 		
